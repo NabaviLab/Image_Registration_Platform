@@ -48,10 +48,6 @@ This software is developed under the license of Dr. Nabavi's and Dr. Ostroff's l
 - [Dr. Nabavi's Lab](https://sheida-nabavi.uconn.edu/)
 - [Dr. Ostroff's Lab](https://pnb.uconn.edu/person/linnaea/)
 
-## Learn More
-To learn more about the registration process and our platform, please visit our website:
-[Ultraplex Tools](http://ultraplextools.cse.uconn.edu:5000/).
-
 ## Citation
 
 If you use this platform in your research, please cite the following paper:
@@ -65,3 +61,9 @@ pages={1--10},
 year={2023}
 }
 ```
+
+## Learn More
+To learn more about the registration process and our platform, please visit our website:
+[Ultraplex Tools](http://ultraplextools.cse.uconn.edu:5000/).
+
+
