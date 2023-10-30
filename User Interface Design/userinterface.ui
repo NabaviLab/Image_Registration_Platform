@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>982</width>
+    <height>760</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #272735;
+
+MainWindow.setStyleSheet(
+    &quot;QMainWindow { &quot;
+    &quot;    background-color: #272735; &quot; // Example background color for the main window
+    &quot;} &quot;
+    &quot;QMessageBox { &quot;
+    &quot;    background-color: #FFFFFF; &quot; // Override for QMessageBox specifically
+    &quot;    color: black; &quot;              // Text color for the QMessageBox
+    &quot;} &quot;
+    &quot;QMessageBox QLabel { &quot;
+    &quot;    color: red; &quot;                // Text color for labels in QMessageBox
+    &quot;} &quot;
+    // Add more specific styles for other QMessageBox elements if needed
+);
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="registerimage_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>440</y>
+      <width>331</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #AD1457;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #AF3068;
+}
+
+QPushButton:pressed {
+    background-color: #960947;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Register Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>510</y>
+      <width>215</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Sequential Image Registration</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerimage_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>550</y>
+      <width>331</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #AD1457;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #AF3068;
+}
+
+QPushButton:pressed {
+    background-color: #960947;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Upload Folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerimage_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>650</y>
+      <width>331</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #5445FF;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #5E51F6;
+}
+
+QPushButton:pressed {
+    background-color: #4434FF;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Register Folder</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>40</y>
+      <width>215</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Pairwise Image Registration</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>490</y>
+      <width>1141</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Line {
+    background-color: #AD1457;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+Line {
+    background-color: #AD1457;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+Line:hover {
+    background-color: #AF3068;
+}
+
+Line:pressed {
+    background-color: #960947;
+}
+
+
+</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #39394B;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fixedimage">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>300</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #5445FF;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #5E51F6;
+}
+
+QPushButton:pressed {
+    background-color: #4434FF;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Uploade Fixed Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image1">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>80</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #39394B;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="movingimage">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>390</y>
+      <width>300</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #5445FF;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #5E51F6;
+}
+
+QPushButton:pressed {
+    background-color: #4434FF;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Uploade Moving Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>80</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #39394B;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerimage">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>390</y>
+      <width>300</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #5445FF;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #5E51F6;
+}
+
+QPushButton:pressed {
+    background-color: #4434FF;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Download Register Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerimage_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>600</y>
+      <width>331</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #AD1457;
+    color: #E9E9EA;
+    /*border: 2px solid rgb(0, 140, 225);*/ 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #AF3068;
+}
+
+QPushButton:pressed {
+    background-color: #960947;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Select Result Folder</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
