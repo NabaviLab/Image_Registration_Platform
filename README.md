@@ -51,3 +51,17 @@ This software is developed under the license of Dr. Nabavi's and Dr. Ostroff's l
 ## Learn More
 To learn more about the registration process and our platform, please visit our website:
 [Ultraplex Tools](http://ultraplextools.cse.uconn.edu:5000/).
+
+## Citation
+
+If you use this platform in your research, please cite the following paper:
+
+```bash
+@inproceedings{hamzehei20233d,
+title={3D Biological/Biomedical Image Registration with enhanced Feature Extraction and Outlier Detection},
+author={Hamzehei, Sahand and Bai, Jun and Raimondi, Gianna and Tripp, Rebecca and Ostroff, Linnaea and Nabavi, Sheida},
+booktitle={Proceedings of the 14th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics},
+pages={1--10},
+year={2023}
+}
+```
