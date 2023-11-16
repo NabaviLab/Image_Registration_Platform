@@ -1,5 +1,10 @@
 # Image Registration Platform
 
+
+
+![Diagram](Diagram.png)
+
+
 Welcome to the Image Registration Platform, an advanced solution for pairwise and sequential image registration tasks. This platform is based on a robust algorithm, notably improved through sequential registration, and capable of applying transformations across various channels.
 
 ## Algorithm
